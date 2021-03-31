@@ -1,0 +1,64 @@
+/* STICKY STATION HEADER STYLESHEET */
+.station-name {
+  border-bottom: 1px grey solid;
+  position: sticky;
+  top: 7%;
+  z-index: 2;
+  padding: 0.8em 0;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 18px 10px 14px 10px;
+}
+
+.station-name > h2 {
+  color: black;
+  padding: 13px 8px 13px 24px;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0%;
+  display: flex;
+  align-items: baseline;
+  display: inline;
+  position: relative;
+  top: 2px;
+}
+
+.station-name .statename {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: flex-end;
+  vertical-align: bottom;
+  position: relative;
+  top: -3px;
+}
+
+.change {
+  padding: 0px 28px;
+  color: white;
+  background-color: #0078c8;
+  align-items: center;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.change:focus,
+.change:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.change:hover {
+  background-color: #ffd100;
+  color: black;
+}
+
+.search-icon:active,
+.search-icon:focus {
+  outline: none;
+  border: none;
+}

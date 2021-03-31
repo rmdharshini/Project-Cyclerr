@@ -1,0 +1,76 @@
+/* SEARCHBAR STYLESHEET */
+@charset "UTF-8";
+.autocomplete-container {
+  position: relative;
+  height: 70px;
+}
+.autocomplete-input {
+  padding: 9px;
+  border-radius: 3px;
+  font-family: inherit;
+  float: left;
+  font-size: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
+.autocomplete-input:focus {
+  border: rgba(0, 0, 0, 0.86) solid 1.5px;
+  outline: none;
+}
+.autocomplete-button {
+  font-family: inherit;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+  transition: all 0.2s ease-out 0s;
+  margin: 0px 0 0 -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.autocomplete-button:hover {
+  background-color: rgba(0, 0, 0, 0.86);
+}
+.proposal-box {
+  position: absolute;
+  height: auto;
+  border-left: 1px solid rgba(0, 0, 0, 0.11);
+  border-right: 1px solid rgba(0, 0, 0, 0.11);
+  left: 0;
+  z-index: 3;
+}
+.proposal-list {
+  list-style: none;
+   width: 698.5px;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  text-transform: capitalize;
+  margin-top: -9px;
+}
+.proposal-list li {
+  text-align: left;
+  padding: 9px;
+  font-family: inherit;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  height: 70.9%;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 698.5px;
+  margin-left: -0.6px;
+  
+ 
+}
+li.proposal.selected {
+  background-color: #efefef;
+  color: black;
+  text-transform: capitalize;
+}

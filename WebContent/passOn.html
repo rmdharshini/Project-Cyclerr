@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cyclerr | India</title>
+  <link rel="icon" href="Images/logo/titleLogo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <!--===============================================================================================-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--===============================================================================================-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/navDropdown.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/passOn.css">
+  <!--===============================================================================================-->
+</head>
+
+<body>
+  <!-- NAV-BAR -->
+  <nav class="navbar navbar-default navbar-fixed-top" style="position: sticky">
+    <div class="container">
+      <div class="navbar-header">
+        <img src="Images/logo/headerLogo.png" alt="Logo" style="width: 160px; margin-top: 4px">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="dropdown" style="float: right;">
+          <button class="dropbtn" style="width: 200px">
+            MY ACCOUNT
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="triangle"></div>
+          <div class="dropdown-content">
+            <button>DASHBOARD</button>
+            <button>LOGOUT</button>
+          </div>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <c:choose>
+              <c:when test="${not empty emailid}"><button type="button" onclick="location.href='Timer.jsp';">MY
+                  RIDES</button></c:when>
+              <c:otherwise><button type="button" data-js="open" onclick="location.href='logout';" disabled="disabled"
+                  style="display:none">LOGOUT</c:otherwise>
+            </c:choose>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 p-l-85 p-r-85 p-t-45 p-b-45" style="width: 600px; height: 500px;">
+        <!-- PASS-ON FORM-->
+        <form class="login100-form validate-form flex-sb flex-w" action="Daopasson">
+          <span class="login100-form-title p-b-32">
+            Pass On
+          </span>
+
+          <!-- RECEIVER ID -->
+          <span class="txt1 p-b-11">
+            Receiver ID
+          </span>
+          <div class="wrap-input100 validate-input m-b-36" data-validate="Valid ID is required">
+            <input type="text" class="input100" type="text" name="username">
+            <span class="focus-input100"></span>
+          </div>
+
+          <!-- DESTINATION -->
+          <span class="txt1 p-b-11">
+            Destination
+          </span>
+          <div class="wrap-input100 validate-input m-b-36" data-validate="Destination is required">
+            <input class="input100" type="text" name="destination">
+            <span class="focus-input100"></span>
+          </div>
+
+          <!-- PASS-ON BUTTON -->
+          <div class="container-login100-form-btn" style="justify-content: center;">
+            <input type="submit" class="submit-desi" value="Pass On" style="margin-bottom: 15px; margin-top: 10px;">
+          </div>
+          <div class="sign-up" style="margin:0px auto;">
+            <p class="txt3 new-user">
+              By clicking "Pass", you agree to pass on your bicycle.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/animsition/js/animsition.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/daterangepicker/moment.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+  <!-- FOOTER -->
+  <div id="footer"></div>
+  <script>
+    $(function () {
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <!--===============================================================================================-->
+</body>
+
+</html>

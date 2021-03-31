@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.otSc {
+  margin: 0;
+  margin-right: 16px;
+  border: 1px solid;
+  padding: 10px 0px;
+  font-size: 38px;
+  text-align: center;
+  width: 100%;
+  outline: none;
+}
+.otSc:last-child {
+  margin-right: 0;
+}
+.otpCont {
+  padding: 20px 40px;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+  border: solid 1px #f4511e !important;
+}

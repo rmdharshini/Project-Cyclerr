@@ -1,0 +1,22 @@
+/* THANK YOU STAR STYLESHEET */
+.rating-stars ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating-stars ul > li.star {
+  display: inline-block;
+}
+
+.rating-stars ul > li.star > i.fa {
+  font-size: 4em;
+  color: #ccc;
+}
+
+.rating-stars ul > li.star.hover > i.fa {
+  color: #ffcc36;
+}
+
+.rating-stars ul > li.star.selected > i.fa {
+  color: #ff912c;
+}

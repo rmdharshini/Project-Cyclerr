@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cyclerr | India</title>
+  <link rel="icon" href="Images/logo/titleLogo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <!--===============================================================================================-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+  <!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <!--===============================================================================================-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/loginSignup.css">
+  <!--===============================================================================================-->
+</head>
+
+<body>
+  <!-- NAV-BAR -->
+  <nav class="navbar navbar-default navbar-fixed-top" style="position: sticky">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="home.jsp">
+          <img src="Images/logo/headerLogo.png" alt="Logo" style="width: 160px; margin-top: 4px">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <button type="button" data-js="open" onclick="location.href='login.html';">
+              LOGIN
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 p-l-85 p-r-85 p-t-20 p-b-10" style=" height: fit-content; overflow: hidden;">
+        <!-- SIGN-UP FORM -->
+        <form class="login100-form validate-form flex-sb flex-w" action="Daosignupuser" name="Signup" id="signupForm">
+          <span class="login100-form-title p-b-32">
+            Get moving with Cyclerr
+          </span>
+          <!-- NAME FIELD -->
+          <div>
+            <h1 class="txt1 p-b-11 change">Full Name</h1>
+            <div class="wrap-input100 validate-input m-b-36">
+              <input id="fullname" class="input100" type="text" name="username"
+                style="width: 428px;text-transform: capitalize;" />
+              <span class="focus-input100"></span>
+            </div>
+            <div>
+              <h1 class="alert-style" id="name_error"></h1>
+            </div>
+          </div>
+
+          <!-- MOBILE NUMBER FIELD -->
+          <div>
+            <h1 class="txt1 p-b-11 change">Mobile Number</h1>
+            <div class="wrap-input100 validate-input m-b-36" data-validate="Number is required">
+              <input id="mobile" class="input100" type="text" name="mobile" style="width: 428px" maxlength="10" />
+              <span class="focus-input100"></span>
+            </div>
+            <div>
+              <h1 class="alert-style" id="num_error"></h1>
+            </div>
+          </div>
+
+          <!-- EMAIL ID FIELD -->
+          <div>
+            <h1 class="txt1 p-b-11 change">Email id</h1>
+            <div class="wrap-input100 validate-input m-b-36" data-validate="Email is required">
+              <input id="mail" class="input100" type="text" name="email" style="width: 428px" />
+              <span class="focus-input100"></span>
+            </div>
+            <div>
+              <h1 class="alert-style" id="email_error"></h1>
+            </div>
+          </div>
+
+          <!-- PASSWORD FIELD -->
+          <div>
+            <h1 class="txt1 p-b-11 change">Password</h1>
+            <div class="wrap-input100 validate-input m-b-12" data-validate="Password is required">
+              <span class="btn-show-pass">
+                <i class="fa fa-eye"></i>
+              </span>
+              <input id="word" class="input100" type="password" name="pass" style="width: 428px" />
+              <span class="focus-input100"></span>
+            </div>
+            <div>
+              <h1 class="alert-style" id="pass_error"></h1>
+            </div>
+          </div>
+
+          <!-- CONFIRM PASSWORD FIELD -->
+          <div>
+            <h1 class="txt1 p-b-11 change">Confirm Password</h1>
+            <div class="wrap-input100 validate-input m-b-12" data-validate="Password is required">
+              <span class="btn-show-pass">
+                <i class="fa fa-eye"></i>
+              </span>
+              <input id="cword" class="input100" type="password" style="width: 428px" />
+              <span class="focus-input100"></span>
+            </div>
+            <div>
+              <h1 class="alert-style" id="rpass_error">HI</h1>
+            </div>
+          </div>
+
+          <!-- SIGN-UP BUTTON -->
+          <div data-js="opens" class="container-login100-form-btn" style="justify-content: center; margin-top: 10px">
+            <input type="submit" id="signup" class="login100-form-btn next"
+              style="margin-bottom: 10px; letter-spacing: 2px;margin-top: 20px;" value="Sign up" />
+          </div>
+
+          <!-- LOGIN REDIRECT -->
+          <div class="sign-up" style="margin: 0px auto; margin-bottom: 50px;">
+            <a href="login.html" class="txt3 new-user">
+              Already a Cyclerr?
+              <span style="font-weight: bolder">Login</span>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/animsition/js/animsition.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/daterangepicker/moment.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="Javascript/signupValidation.js"></script>
+  <!--===============================================================================================-->
+  <script src="Javascript/showPassword.js"></script>
+  <!--===============================================================================================-->
+  <!-- FOOTER -->
+  <div id="footer"></div>
+  <script>
+    $(function () {
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <!--===============================================================================================-->
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+/* DASHBOARD STYLESHEET */
+body {
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+.sidenav {
+  height: auto;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+  margin-top: 100px;
+  background-color: #efefef;
+  overflow: hidden;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  z-index: -1;
+}
+
+.sidenav a:hover {
+  color: #121212;
+  background-color: #e3e3e3;
+  z-index: -1;
+}
+
+.sec1-hide {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.scroll-setting{
+  overflow-y: auto;
+  height: 290px;
+  flex-wrap: nowrap;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.main,.main2 {
+  height: 100%;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

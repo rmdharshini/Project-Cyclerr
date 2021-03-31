@@ -1,0 +1,273 @@
+/* PAYMENT STYLESHEET */
+body {
+  background-color: #efefef;
+}
+
+.payment-main-container-holder {
+  width: 100%;
+  height: 92%;
+}
+
+.payment-container {
+  background-color: #efefef;
+  margin-bottom: 40px;
+  padding: 30px 30px 30px 30px;
+  margin: auto;
+  position: relative;
+}
+
+.sec1-checkout {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding: 12px 18px;
+  border-radius: 3px;
+}
+
+.sec1-checkout > h1 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 13px;
+  margin-top: 0px;
+}
+
+hr {
+  margin: 10px 0;
+  border-bottom: #0e0e0e solid 1px;
+  border-top: none;
+}
+
+.checkout-content-label {
+  width: 27%;
+  display: inline-block;
+}
+
+.checkout-start-label {
+  width: 22%;
+  display: inline-block;
+}
+
+.checkout-end-label {
+  width: 22%;
+  display: inline-block;
+}
+
+.checkout-time-label {
+  width: 14%;
+  display: inline-block;
+}
+
+.checkout-price-label {
+  width: 14%;
+  display: inline-block;
+}
+
+.checkout-style-h4 {
+  font-size: 16px;
+  color: #000000;
+  margin: 0%;
+  margin-top: 4px;
+
+  font-weight: 600;
+}
+
+.checkout-style-h1 {
+  font-size: 28px;
+  color: #818181;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.checkout-style-h1-orange {
+  font-size: 28px;
+  color: #f4511e;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.checkout-label-style {
+  padding: 0 10px 10px 0.2%;
+}
+
+.sec2-payment-method {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 3px;
+  padding: 18px 18px;
+  padding-bottom: 9px;
+  line-height: 1.4;
+}
+
+.payment-heading > h1 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.payment-option-ip ~ label {
+  display: inline-block;
+  font-size: 18px;
+
+  color: #000000;
+  padding: 2px;
+  padding-left: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  transform: scale(1.3);
+  color: #f4511e;
+}
+
+div.card {
+  width: 99%;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+  margin-left: 25px;
+  padding: 10px 0;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+div.card-inner-sec {
+  margin-right: 30px;
+}
+
+div.card-inner-sec span {
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+div.card-inner-sec input {
+  width: 300px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  background-color: #efefef;
+  height: 40px;
+}
+
+select {
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: none;
+  margin-right: 10px;
+  background-color: #efefef;
+  height: 40px;
+}
+
+div.cvv {
+  position: relative;
+}
+
+div.cvv > img {
+  height: 65px;
+  position: absolute;
+  top: -13px;
+  left: 95px;
+}
+
+div.cvv input {
+  width: 90px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+div.cvv input::-ms-reveal {
+  display: none;
+}
+
+div.sec2-payment-method input,
+select {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  border: solid 1px;
+}
+
+div.sec2-payment-method input:focus,
+select:focus {
+  border: 1px solid #f4511e !important;
+  border-radius: 3px;
+  transition: all 0.2s ease-out 0s;
+}
+
+div.check1,
+div.check2 {
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+div.check2 {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.submit-desi {
+  height: 45px;
+  width: 200px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding: 0 20px;
+  background-color: #f4511e;
+  color: white;
+  font-weight: 3;
+  line-height: 1;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: -30px;
+  right: 20px;
+  outline: none;
+  border: none;
+
+}
+
+.submit-desi:hover,
+.submit-desi:active {
+  background-color: rgb(255, 208, 0);
+  color: black;
+  font-weight: 3;
+  transition: all 0.2s ease-out 0s;
+  outline: none;
+  border: none;
+}
+
+.btn-show-pass {
+  font-size: 15px;
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 12px;
+  padding: 0 5px;
+  cursor: pointer;
+  -webkit-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  transition: background 0.4s;
+}
+
+.btn-show-pass:hover {
+  color: #f4511e;
+}
+
+.btn-show-pass.active {
+  color: #f4511e;
+}

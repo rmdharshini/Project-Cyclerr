@@ -1,0 +1,69 @@
+/* USER HISTORY STYLESHEET */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+div.history-holder{
+  display: flex;
+  align-items: top;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+div.history-card{
+  width: 90%;
+  height: fit-content;
+  padding: 20px 0;
+  margin-left:100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: solid 1px #121212;
+}
+
+div.history-card div{
+  width: 160px;
+  height: fit-content; 
+  border-right: solid 1px #e3e3e3;
+  padding: 10px;
+  padding-left: 18px; 
+}
+
+div.history-card div:nth-last-of-type(1){
+  border: none;
+}
+
+div.history-card:nth-last-of-type(1){
+  border: none;
+  margin-bottom: 10px;
+}
+
+div.history-card div h3{
+  margin: 0;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+}
+
+div.history-card div h1{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #0078C8;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 2px;
+}
+
+div.history-card>div.historyDate{
+  width:220px;
+  border-right: solid 1px #e3e3e3;
+}
+ div.history-card:nth-of-type(1){
+  margin-top: 240px;
+} 
+div.history-card>div.historyStart{
+  width: 300px;
+  border-right: solid 1px #e3e3e3;
+}
+
+div.history-card>div.historyEnd{
+  width: 260px;
+  border-right: solid 1px #e3e3e3;
+}

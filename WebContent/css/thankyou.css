@@ -1,0 +1,65 @@
+/* THANK YOU SECTION STYLESHEET */
+body{
+  overflow: hidden;
+}
+
+.thankyou-container{
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.thankyou-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.thankyou-content>h1{
+  font-size: 40px;
+  line-height: 1.4em;
+  color: black;
+  font-weight:500;
+  margin-bottom: 10px;
+}
+
+.thankyou-content>h4{
+  font-size: 20px;
+  color: #555555;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 3px;
+
+}
+
+.submit{
+  height:45px;
+  width: 300px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border-radius: 3px;
+  padding: 0 20px;
+  background-color: #f4511e;
+  color:  white;
+  font-weight: 3;
+  line-height: 1;
+  letter-spacing: 2px;
+  outline: none;
+  border: solid 2px #f4511e;
+}
+
+.submit:hover,.submit:active{
+  background-color: rgb(255, 208, 0);
+  color: black;
+  font-weight: 3;
+  transition: all 0.2s ease-out 0s;
+  outline: none;
+  border: none;
+  border: solid 2px  #ffd000;
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.well {
+  background-color: white;
+  margin: 30px 0;
+  border-radius: 3px;
+  color: black;
+}
+
+.sidebar-nav {
+  display: block;
+  float: left;
+  width: 180px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-content-wrapper {
+  padding-left: 10px;
+  margin-left: 0;
+  display: inline-block;
+  background-color: #efefef;
+
+  position: relative;
+  min-height: 500px;
+  max-height: fit-content;
+}
+#wrapper.active {
+  padding-left: 180px;
+}
+#wrapper.active #sidebar-wrapper {
+  left: 180px;
+}
+
+#page-content-wrapper {
+  width: fit-content;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column; */
+}
+
+
+.sec2-userid{
+  text-transform: uppercase;
+}
+.dash-content {
+	
+	position:relative;
+	top:-10px;
+	left:-35px;
+  display: flex;
+  justify-content: space-between;
+  height: 240px;
+  padding: 10px 40px;
+  margin-right: 30px;
+  
+  
+}
+.dash-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0%;
+}
+.dash-content h1 {
+  font-size: 24px;
+  margin-top: 6px;
+  color: #0078c8;
+}
+.dashcontent-sec1,
+.dashcontent-sec2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.dashcontent-sec1 {
+  margin-right: 70px;
+}
+
+
+.sec1-ridehour h1 , .sec1-rideno h1{
+  color: #f4511e;
+}
+
+
+@media (max-width: 767px) {
+  #wrapper {
+    padding-left: 70px;
+    transition: all 0.4s ease 0s;
+  }
+  #sidebar-wrapper {
+    left: 70px;
+  }
+  #wrapper.active {
+    padding-left: 170px;
+  }
+  #wrapper.active #sidebar-wrapper {
+    left: 170px;
+    width: 170px;
+    transition: all 0.4s ease 0s;
+  }
+}
+.sidenav a{
+	    border-bottom: 1px #ffffff solid;
+    font-size: 24px;
+}

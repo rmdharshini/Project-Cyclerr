@@ -1,0 +1,71 @@
+/* NAV-BAR DROPDOWN CSS */
+.dropdown button {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  float: right !important;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 7px;
+}
+
+.dropbtn {
+  background-color: white;
+  color: rgb(244, 81, 30, 0.801);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 10.5px;
+  margin-top: 45px;
+  line-height: 20px;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  box-shadow: rgba(185, 185, 185, 0.4) 0px 2px 5px 0px;
+  border: solid 1px #e3e3e3;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-content button:hover {
+  background-color: #f4501e85;
+  color: #000;
+}
+
+.dropdown-content::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 22px;
+  width: 0;
+  border-bottom: 5px solid white;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,178 @@
+/* STATION CARD DESIGN STYLESHEET */
+.scroll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  padding: 60px 60px 0px 60px;
+}
+
+div.label input[type="submit"] {
+  position: relative;
+  left: -8px;
+  top: 10px;
+}
+
+div.label input[type="submit"]:focus,
+div.label input[type="submit"]:active {
+  border: none;
+  outline: none;
+}
+
+div.scroll-container > div.label {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 800px;
+  heigth: 100px;
+  display: block;
+  text-align: left;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1.8em;
+  position: relative;
+  padding: 20px 60px 10px;
+  border-radius: 3px;
+}
+
+div.label {
+  transition: all 0.3s linear;
+  height: 300px;
+}
+
+h1.card-heading {
+  height: 30%;
+  padding-left: 20px;
+  font-size: 35px;
+  display: inline-block;
+}
+
+.card-sec1 {
+  float: left;
+  padding: 0px 20px 10px;
+  height: 170px;
+  margin-right: 13px;
+  font-size: 20px;
+}
+
+.card-display {
+  border-radius: 3px;
+  display: inline-block;
+}
+
+div.map-details {
+  margin-top: 13px;
+  background-color: #cc0001;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  display: inline-flex;
+  padding: 4px 9px 6px 3px;
+}
+
+h4.map-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  font-size: 20px;
+}
+div.map-details:hover {
+  text-decoration: none;
+  background-color: rgb(204, 0, 1, 0.87);
+}
+
+h4.map-link:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-sec1 h4 {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-size: 20px;
+}
+
+div.label > div.card-sec2 {
+  position: relative;
+  top: -45px;
+  padding: 0px 20px 10px;
+  float: right;
+  margin-left: 13px;
+}
+
+.station-id {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+  text-align: justify;
+  letter-spacing: 8px;
+  margin-top: 8px;
+  margin-bottom: 28px;
+  color: #0078c8;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.station-id-label,
+.avl-id-label {
+  margin-bottom: 4%;
+}
+
+.station-style {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.avl-style-span {
+  font-size: 40px;
+}
+
+.first-line,
+.second-line,
+.third-line {
+  font-size: 20px;
+}
+
+.avl-id {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+  text-align: justify;
+  margin-top: 8px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  color: #0078c8;
+  font-weight: bolder;
+}
+
+.avl-style {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.label:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px 0 hsla(0, 0%, 72.5%, 0.4);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.space-end {
+  padding-bottom: 100px;
+  background-color: #efefef;
+}
+
+a.label-anchor {
+  text-decoration: none;
+  color: black;
+}

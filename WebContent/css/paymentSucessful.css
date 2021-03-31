@@ -1,0 +1,91 @@
+/* PAYMENT SUCESSFUL STYLESHEET */
+body {
+  overflow: auto
+}
+
+.pay-container{
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  margin-top: 100px;
+}
+.paySucesstick{
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pay-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.pay-content>h1{
+  font-size: 42px;
+  line-height: 1.4em;
+  color: black;
+  font-weight:500;
+  margin-bottom: 10px;
+}
+
+.pay-content>h4{
+  font-size: 20px;
+  color: #555555;
+  font-weight: 300;
+  line-height: 1.4em;
+  padding: 4px;
+  margin-bottom: 0px
+}
+
+.pay-button{
+	margin-bottom: 90px
+}
+
+.submit{
+  height:45px;
+  width: 300px;
+  font-size: 18px;
+  margin-right: 0px;
+  border-radius: 3px;
+  padding: 0 20px;
+  background-color: #f4511e;
+  color:  white;
+  font-weight: 3;
+  line-height: 1;
+  letter-spacing: 2px;
+  outline: none;
+  border: solid 2px #f4511e;
+}
+
+.submit:hover,.submit:active{
+  background-color: rgb(255, 208, 0);
+  color: black;
+  font-weight: 3;
+  transition: all 0.2s ease-out 0s;
+  outline: none;
+  border: none;
+  border: solid 2px  #ffd000;
+}
+
+.add-another{
+  margin-right: 15px;
+  border: solid 2px #f4511e;
+  background-color: #ffffff;
+  color: #f4511e;
+}
+
+.add-another:hover,.add-another:active{
+  color: #000000;
+  border:#000000 solid 2px;
+  background-color: #ffffff;
+  
+}
+
+#pay-id{
+  color: #0078c8;
+}
