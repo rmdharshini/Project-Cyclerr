@@ -1,5 +1,5 @@
 # CYCLERR - BICYCLE RENTAL MANAGEMENT SYSTEM
-![Project Logo](Assets/logo.PNG)
+<img src="Assets/logo.PNG"  alt="LOGO"/>
 
 ---
 
@@ -59,10 +59,10 @@ A dynamic website for bicyle rental management system. This application serves a
 
   <table>
     <tr>
-      <td align="center"><a href=""><img src="Assets/contributors/dhar.jpeg" width="200px;" alt=""/><br /><sub><b>Dharshini</b></sub></a><br /><a href="#question-kentcdodds" ></a></td>
-      <td align="center"><a href="#"><img src="Assets/contributors/sanjitha.jpeg" width="200px;" alt=""/><br /><sub><b>Sanjitha</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/senthiljack2808"><img src="Assets/contributors/senthil.jpeg" width="200px;" alt=""/><br /><sub><b>Senthil Kumar</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/ssrrajamani"><img src="Assets/contributors/sivasanjayraahul.jpeg" width="200px;" alt=""/><br /><sub><b>Sivasanjay Raahul</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="Assets/contributors/dhar.jpeg" width="200px;" alt="DHARSHINI"/><br /><sub><b>Dharshini</b></sub></a><br /><a href="#question-kentcdodds" ></a></td>
+      <td align="center"><a href="#"><img src="Assets/contributors/sanjitha.jpeg" width="200px;" alt="SANJITHA"/><br /><sub><b>Sanjitha</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/senthiljack2808"><img src="Assets/contributors/senthil.jpeg" width="200px;" alt="SENTHIL"/><br /><sub><b>Senthil Kumar</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/ssrrajamani"><img src="Assets/contributors/sivasanjayraahul.jpeg" width="200px;" alt="SIVASANJAY"/><br /><sub><b>Sivasanjay Raahul</b></sub></a><br /></td>
     </tr>
   </table>
 
