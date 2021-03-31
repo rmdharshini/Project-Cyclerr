@@ -1,6 +1,6 @@
 # CYCLERR - BICYCLE RENTAL MANAGEMENT SYSTEM
 
-<img src="Assets/logo.png" width="150" height="150" />
+<img src="Assets/logo.png" width="230" height="120" />
 
 ---
 
