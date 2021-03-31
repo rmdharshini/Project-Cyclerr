@@ -1,5 +1,5 @@
 # CYCLERR - BICYCLE RENTAL MANAGEMENT SYSTEM
-![Project Logo](/Assets/logo.PNG)
+![Project Logo](Assets/logo.PNG)
 
 ---
 
