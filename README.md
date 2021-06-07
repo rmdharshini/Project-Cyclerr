@@ -31,7 +31,6 @@ A dynamic website for bicyle rental management system. This application serves a
 - Backend
   - JSP
   - SERVLETS
-  - AJAX
 - Database
   - MySQL
 
